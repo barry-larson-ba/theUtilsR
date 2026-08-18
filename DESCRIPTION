@@ -3,7 +3,7 @@ Title: Oracle Readers and Reusable Report Transforms
 Version: 0.2.0
 Authors@R:
     person("Barry", "Larson",
-           email = "barrylarson127@yahoo.com",
+           email = "",
            role = c("aut", "cre"),
            comment = "R port")
 Description: Provides Oracle database readers and a set of reusable
