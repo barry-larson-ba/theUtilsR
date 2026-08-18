@@ -1,0 +1,64 @@
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+*.Rcheck/
+*.tar.gz
+*.tgz
+.httr-oauth
+
+# renv (if adopted later)
+renv/library/
+renv/local/
+renv/staging/
+
+# Build artefacts
+src/*.o
+src/*.so
+src/*.dll
+inst/doc/
+doc/
+Meta/
+..Rcheck/
+
+# Databricks
+.databricks/
+.databricks-login.json
+
+# Credentials and local configuration -- never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+secrets.*
+credentials.*
+config.local.*
+tnsnames.ora
+sqlnet.ora
+wallet/
+
+# Oracle client / JDBC artefacts
+*.jar
+*.log
+*.trc
+
+# Editor configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini

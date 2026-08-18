@@ -1,0 +1,36 @@
+Package: theUtilsR
+Title: Oracle Readers and Reusable Report Transforms
+Version: 0.2.0
+Authors@R:
+    person("Barry", "Larson",
+           email = "barrylarson127@yahoo.com",
+           role = c("aut", "cre"),
+           comment = "R port")
+Description: Provides Oracle database readers and a set of reusable
+    transformations for building reports.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 4.1)
+Imports:
+    dbplyr (>= 2.3.0),
+    dplyr (>= 1.1.0),
+    rlang (>= 1.1.0),
+    stringr,
+    tibble,
+    tidyr
+Suggests:
+    data.table,
+    DBI,
+    duckdb,
+    knitr,
+    rmarkdown,
+    sparklyr,
+    testthat (>= 3.0.0),
+    withr,
+    writexl
+Config/testthat/edition: 3
+URL: https://github.com/barry-larson-ba/SasUtils
+BugReports: https://github.com/barry-larson-ba/SasUtils/issues

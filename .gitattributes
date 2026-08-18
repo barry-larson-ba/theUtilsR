@@ -1,0 +1,10 @@
+# Normalise line endings in the repository to LF.
+#
+# This package is developed on Windows and cloned onto Linux Databricks
+# clusters. Without this, CRLF can reach the repo and R CMD check reports
+# "found ^M" on the Linux side.
+* text=auto eol=lf
+
+# Generated documentation -- collapse it in diffs and pull requests.
+man/*.Rd linguist-generated=true
+NAMESPACE linguist-generated=true
